@@ -261,12 +261,14 @@ testeFuncao <- function(year_start, month_start, year_end, month_end, uf="all", 
 }
 
 
-testeFuncao(year_start = 2020,
+aqui = testeFuncao(year_start = 2020,
                     month_start = 1, 
                     year_end = 2020, 
                     month_end = 12, 
                     uf = "ES", 
                     information_system = "SIM-DO")
+
+head(aqui, 10)
 
 
 

@@ -26,4 +26,5 @@ process2 = subprocess.Popen(["Rscript", "fetch_datasus.R"], stdout=subprocess.PI
 
 
 if st.button('Extrair dados'):
-  process2.communicate()
+  result2 = process2.communicate()
+  st.write(result2)
